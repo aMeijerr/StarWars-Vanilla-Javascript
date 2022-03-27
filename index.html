@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Star Wars Catalog</title>
+  </head>
+  <body>
+    <header>
+      <h1>star wars catalog</h1>
+    </header>
+    <main>
+      <section class="characters">
+        <h2 class="characters_h2">Character</h2>
+        <article class="character_article">
+          <ul class="char__list"></ul>
+          <nav>
+            <div>
+              <i class="material-icons previous" id="">keyboard_arrow_left</i>
+              <div><span class="counterOne">1</span>/8</div>
+              <i class="material-icons next" id="">keyboard_arrow_right</i>
+            </div>
+          </nav>
+        </article>
+      </section>
+      <section class="details">
+        <h2 class="details__h2">Details</h2>
+        <article class="details__char"></article>
+        <article class="details__buttons">
+          <button class="homeworld__btn">Homeworld</button>
+          <button class="species__btn">Species</button>
+          <button class="vehicles__btn" id="vehicle__btn">Vehicles</button>
+          <button class="starships__btn" id="starship__btn">Starships</button>
+        </article>
+        <article class="details__info"></article>
+        <div>
+          <i class="material-icons nextVehicle infoArrows"
+            >keyboard_arrow_right</i
+          >
+          <i class="material-icons nextStarship infoArrows"
+            >keyboard_arrow_right</i
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
